@@ -1,0 +1,18 @@
+person:
+  name: 李华
+  age: 3
+  cat:
+    name: 小鸡毛
+    age: 3
+spring:
+  profiles:
+    active: test #选择名为test的这套环境
+#yaml多套环境选择 ---表示新开启一个环境
+#debug: true
+---
+server:
+  port: 8080
+spring:
+  config:
+    activate:
+      on-profile: test #这套环境的名字 spring.profiles:过时了

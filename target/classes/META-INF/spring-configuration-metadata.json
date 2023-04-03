@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.zsa.pojo.Person",
+      "sourceType": "com.zsa.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zsa.pojo.Person"
+    },
+    {
+      "name": "person.cat",
+      "type": "com.zsa.pojo.Cat",
+      "sourceType": "com.zsa.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.zsa.pojo.Person"
+    }
+  ],
+  "hints": []
+}
