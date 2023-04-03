@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller01 {
     @GetMapping()
     public String get(@PathVariable String age,String pass){
+        System.out.println("hello git");
         return "hello world";
     }
 }
